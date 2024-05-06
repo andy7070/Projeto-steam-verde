@@ -401,3 +401,52 @@ width: calc(33.33% - 10px); /* Calculando o tamanho para 3 colunas com margem */
 }
 
 
+/* Fim section jogos */
+
+/* fotter */
+
+.icone_svg{
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  padding-left: 5px;
+  
+}
+
+.icone_svg:hover{
+ color: cornflowerblue;
+}
+
+.ul_footer{
+  list-style: none;
+  columns: 3;
+  width: 600px;
+}
+
+.ul_footer li {
+  line-height: 1.4rem;
+  padding-top: 10px;
+  color: #cccccccc;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.ul_footer li:hover{
+  color: cornflowerblue;
+}
+
+.ul_final{
+  list-style: none;
+  display: inline-block;
+}
+
+.ul_final p {
+  color: #cccccc;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.ul_final p:hover{
+  color: cornflowerblue;
+}
