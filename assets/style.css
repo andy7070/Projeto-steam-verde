@@ -82,6 +82,15 @@ header  a:hover{
  
 }
 
+.input_pesquisa{
+  height: 30px; margin-top: 11px;
+}
+
+.button_pesquisa{
+  height: 34px; 
+  margin-top: 11px;
+}
+
 #teste1 {
   display: flex;
   align-items: center;
@@ -184,6 +193,13 @@ header  a:hover{
 
 #container_esquerdo p {
   line-height: 1.2rem;
+color: #ccc;
+cursor: pointer;
+transition: .5s;
+}
+
+#container_esquerdo p:hover{
+  color: greenyellow;
 }
 
 
@@ -331,6 +347,12 @@ display: none;
   
 }
 
+.h1_promocao{
+  padding-left: 216px; 
+  color: cornflowerblue; 
+  padding-bottom: 15px;
+}
+
 .slide_promocao{
   display: flex;
   position: relative;
@@ -362,6 +384,12 @@ display: none;
 
 /*fim da are 3 */
 
+/* area 4 */
+.h1_fretoplay{
+  color: cornflowerblue; 
+  padding-left: 210px;
+}
+
 /* section jogos */
 
 
@@ -371,20 +399,29 @@ display: none;
 
 .jogos-section {
   margin-bottom: 20px;
+  padding-left: 210px;
  
+}
+
+.detalhesJogados{
+  position: relative; 
+  padding-left: 50px; 
+  padding-top: 50px;
 }
 
 .jogos-list {
   display: flex;
   flex-wrap: wrap;
   cursor: pointer;
+ 
   
 }
 
 .jogo{
 
 margin-top: 15px;
-width: calc(33.33% - 10px); /* Calculando o tamanho para 3 colunas com margem */
+columns: 3;
+width: calc(25.33% - 10px); /* Calculando o tamanho para 3 colunas com margem */
     text-align: center;
 }
 
@@ -404,6 +441,12 @@ width: calc(33.33% - 10px); /* Calculando o tamanho para 3 colunas com margem */
 /* Fim section jogos */
 
 /* fotter */
+
+footer{
+  margin-bottom: 50px; 
+  padding-top: 50px; 
+  padding-left: 205px;
+}
 
 .icone_svg{
   font-size: 30px;
@@ -433,7 +476,7 @@ width: calc(33.33% - 10px); /* Calculando o tamanho para 3 colunas com margem */
 }
 
 .ul_footer li:hover{
-  color: cornflowerblue;
+  color: greenyellow;
 }
 
 .ul_final{
@@ -448,5 +491,213 @@ width: calc(33.33% - 10px); /* Calculando o tamanho para 3 colunas com margem */
 }
 
 .ul_final p:hover{
-  color: cornflowerblue;
+  color: greenyellow;
 }
+
+/* FIM DO FOOTER */
+
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+
+ 
+#container_img img {
+  width: 150px;
+  height: 250px;
+
+}
+
+.input_pesquisa{
+  height: 31px; 
+  margin-top: 10px;
+}
+
+.button_pesquisa{
+  height: 35px; 
+  margin-top: 10px;
+}
+
+#container_esquerdo{
+  display: block;
+ width: 200px;
+ margin-top: 50px;
+ margin-left: 100px;
+
+}
+
+.img_slide{
+  width: 700px;
+}
+
+
+#container_slide {
+  position: relative; /* Para que o overflow hidden funcione corretamente */
+    margin-left: 170px;
+    margin-top: 50px;
+    display: flex;
+    overflow: hidden;
+    width: 700px;
+    border-radius:  10px;
+   
+}
+
+
+
+.slide{
+  position: relative;
+ 
+}
+
+
+.img_slide{
+  height: 420px;
+  width: 700px;
+ 
+ 
+
+}
+
+
+
+
+.manual_navigation{
+display: none;
+  position: absolute;
+  width: 700px;
+  cursor: pointer;
+  left: 45%;
+  bottom: 27px;
+  transition: 1s;
+}
+
+.manual_btn{
+  border: 2px solid #fff;
+  padding: 6px;
+  border-radius: 10px;
+  transition: 1s;
+  cursor: pointer;
+  display: flex;
+}
+
+.manual_input{
+  display: flex;
+  position: absolute;
+  width: 700px;
+  left: 40%;
+  bottom: 10px;
+  transition: 1s;
+ 
+}
+
+
+
+
+.slides_container{
+  display: flex;
+  padding-left: 100px;
+  gap: 1rem;
+  overflow: hidden;
+  max-width: 1505px;
+  flex-flow: wrap;
+  
+}
+
+.slide_promocao{
+  display: flex;
+  position: relative;
+  transition: display 1s ease;
+  
+}
+
+.slide_promocao img {
+  height: 280px;
+  border-radius: 15px;
+  width: 180px;
+  box-shadow: 5px 5px 10px black;
+  cursor: pointer;
+  margin-top: 30px;
+  
+}
+
+.promocao_descricao{
+ line-height: 1.4rem;
+ padding-top: 5px;
+ width: 180px;
+ position: absolute;
+ bottom: 0;
+ background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+ padding-bottom: 7px;
+ padding-left: 7px;
+ border-radius: 15px;
+}
+
+.h1_promocao{
+  padding-left: 100px; 
+  color: cornflowerblue; 
+  padding-bottom: 15px;
+}
+
+.h1_fretoplay{
+  color: cornflowerblue; 
+  padding-left: 100px;
+}
+
+
+
+#are5{
+  display: flex;
+
+}
+
+.jogos-section {
+  margin-bottom: 10px;
+ padding-left: 100px;
+}
+
+.jogos-list {
+  display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+  cursor: pointer;
+
+  
+}
+
+.jogo{
+
+  width: 30px;
+  margin-bottom: 20px; /* Adiciona margem inferior para separar as linhas */
+}
+
+
+
+.jogo img{
+  width: 120px;
+  height: 150px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
+
+}
+
+
+.detalhesJogados{
+  position: relative; 
+  padding-left: 10px; 
+  padding-top: 0px;
+  padding-left: 100px;
+}
+
+.detalhesJogados h3 {
+  font-size: 13px;
+}
+
+.detalhesJogados p {
+  font-size: 10px;
+}
+
+footer{
+  padding-left: 100px;
+}
+  
+}
+
+
