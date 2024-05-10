@@ -497,7 +497,7 @@ footer{
 /* FIM DO FOOTER */
 
 
-@media screen and (min-width: 1200px) and (max-width: 1400px){
+@media screen and (min-width: 1200px) and (max-width: 1500px){
 
  
 #container_img img {
@@ -700,4 +700,128 @@ footer{
   
 }
 
+
+@media screen and (min-width: 1501px) and (max-width: 1780px) {
+
+
+  #container_img img {
+    width: 180px;
+    height: 250px;
+  
+  }
+  
+  #container_esquerdo{
+    display: block;
+   width: 200px;
+   margin-top: 50px;
+   margin-left: 100px;
+  
+  }
+
+
+  .slides_container{
+    display: flex;
+    padding-left: 100px;
+    gap: 1rem;
+    overflow: hidden;
+    max-width: 1505px;
+    flex-flow: wrap;
+    
+  }
+  
+  .slide_promocao{
+    display: flex;
+    position: relative;
+    transition: display 1s ease;
+    
+  }
+  
+  .slide_promocao img {
+    height: 280px;
+    border-radius: 15px;
+    width: 180px;
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+    margin-top: 30px;
+    
+  }
+  
+  .promocao_descricao{
+   line-height: 1.4rem;
+   padding-top: 5px;
+   width: 180px;
+   position: absolute;
+   bottom: 0;
+   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+   padding-bottom: 7px;
+   padding-left: 7px;
+   border-radius: 15px;
+  }
+  
+  .h1_promocao{
+    padding-left: 100px; 
+    color: cornflowerblue; 
+    padding-bottom: 15px;
+  }
+  
+  .h1_fretoplay{
+    color: cornflowerblue; 
+    padding-left: 100px;
+  }
+
+
+  #are5{
+    display: flex;
+  
+  }
+  
+  .jogos-section {
+    margin-bottom: 10px;
+   padding-left: 100px;
+  }
+  
+  .jogos-list {
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+    cursor: pointer;
+  
+    
+  }
+  
+  .jogo{
+  
+    width: 30px;
+    margin-bottom: 20px; /* Adiciona margem inferior para separar as linhas */
+  }
+  
+  
+  
+  .jogo img{
+    width: 120px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+  
+  }
+  
+  
+  .detalhesJogados{
+    position: relative; 
+    padding-left: 10px; 
+    padding-top: 0px;
+    padding-left: 135px;
+  }
+  
+  .detalhesJogados h3 {
+    font-size: 13px;
+  }
+  
+  .detalhesJogados p {
+    font-size: 10px;
+  }
+
+
+
+}
 
